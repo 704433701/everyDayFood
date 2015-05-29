@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Find.h"
+
 
 @interface FindViewController : UIViewController
+
 
 @end

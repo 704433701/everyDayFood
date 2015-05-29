@@ -7,7 +7,28 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Find.h"
+
+
+// 协议代理
+@protocol FindViewDelegate <NSObject>
+
+@optional
+
+- (void)push:(Find *)find;
+
+@end
+
 
 @interface FindView : UIView
+
+@property (nonatomic, retain) UIView *yinYingView;
+@property (nonatomic, retain) UIImageView *imageView1;
+@property (nonatomic, retain) UILabel *label;
+@property (nonatomic, retain) Find *find;
+
+@property (nonatomic, assign) id <FindViewDelegate> delegate;
+
+
 
 @end

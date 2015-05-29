@@ -10,4 +10,12 @@
 
 @interface Find : NSObject
 
+@property (nonatomic, retain) NSString *ID;
+@property (nonatomic, retain) NSString *thumb_2;
+@property (nonatomic, retain) NSString *title;
+@property (nonatomic, retain) NSString *yingyang;
+
+- (instancetype)initWithDictionary:(NSDictionary *)dic;
+
+
 @end

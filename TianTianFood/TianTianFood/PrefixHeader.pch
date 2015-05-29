@@ -1,0 +1,38 @@
+//
+//  PrefixHeader.pch
+//  TianTianFood
+//
+//  Created by 张健华 on 15-3-23.
+//  Copyright (c) 2015年 蓝鸥科技. All rights reserved.
+//
+
+#ifndef TianTianFood_PrefixHeader_pch
+#define TianTianFood_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif
+
+#import "AFNetworking.h"
+#import "MJRefresh.h"
+#import "UIImageView+WebCache.h"
+#import "MBProgressHUD.h"
+#import "DataBaseHandler.h"
+#import "UIColor+RandomColor.h"
+#import "PQFCustomLoaders.h"
+#import "NetHandler.h"
+
+
+////第三方平台的SDK头文件，根据需要的平台导入。
+////以下分别对应微信、新浪微博、腾讯微博
+#import <ShareSDK/ShareSDK.h>
+#import <TencentOpenAPI/QQApiInterface.h>
+#import <TencentOpenAPI/TencentOAuth.h>
+#import "WXApi.h"
+#import "WeiboSDK.h"
+
+#import <AVFoundation/AVFoundation.h>
+
+#define BarColor [UIColor colorWithRed:254.0 / 256.0 green:84.0 / 256.0  blue:154.0 / 256.0 alpha:1]
+#define HomeColor [UIColor colorWithRed:246.0 / 256.0 green:245.0 / 256.0  blue:236.0 / 256.0  alpha:0.8]

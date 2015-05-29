@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Home.h"
 
 @interface HomeViewController : UIViewController
+
+@property (nonatomic, retain) Home *caiPu; // 菜谱信息
 
 @end
